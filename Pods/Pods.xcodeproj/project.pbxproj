@@ -1,0 +1,858 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02760F1041146F6E5D7A14F55FC9819D /* NSObject+GreedJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 58364DF2F6B08DADC9A6B4BA14CBBF45 /* NSObject+GreedJSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0644018FC6116AC073744406845A0681 /* NSData+GreedJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 574206CBF7AFE8AEA6AC28034DE900CB /* NSData+GreedJSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EC3470FF8973485CBCE1A5B27C46F74 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */; };
+		0EF8E9AA652DBE2745A7D5C8CD2E3BDE /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = E68F4E9E2BA4D6DE9AE6BCBEB0471B17 /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0F8A8E0D6FAEBF758E0B4D620335F094 /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A70A2C2CD1E755E4D39203E32CE6E4A /* FMDatabasePool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B8BAB01A02ECE00781B3D168C53CD90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		1C142C575692EEEF824169C340B9C794 /* NSDictionary+GreedJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A80781B874ED6F1A08C96EF8C51C540 /* NSDictionary+GreedJSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D46B5BDCFB900021D6C216942DC82BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		282081E035E7A843068E8BCC2E07C217 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 799BFAF24266ED4799D1809BE400ADD2 /* FMDatabaseQueue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		29362C939FF1842808F0D6EC1989235B /* NSArray+GreedJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = CCB4C8E44C911A5A530D1C9F0D150F0F /* NSArray+GreedJSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		313531CEDA0294311D87B4F4C3F073F4 /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 11256F4C963D39DE4739C77090C0CA13 /* FMDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33D62CE58BB835BE14A700EFC7F5E028 /* GreedJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 65554CBAB8163FB53047613603AE6373 /* GreedJSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C52847F5FF0EEFF107B6921D4E46AA6 /* GRDatabaseDefaultModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A681A413C78873DCB32E4CEFFB12E81F /* GRDatabaseDefaultModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D0F69C4CA35EB6A1F686BA88B19B4F6 /* FMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D57B22A52B721856347CBE753263BD2 /* FMDB-dummy.m */; };
+		587B76A3E381AF7C3EFFDF6754D39288 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		61655F4BFFC94E1947436ADB525D7B33 /* GreedDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 3200534806EF898370F9BBFBDF715894 /* GreedDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E85DE9FBE13A2C8E36CD89E8997575F /* GRJSONHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 751A3FB0880994C77F6A6C183D7AAEF4 /* GRJSONHelper.m */; };
+		775A4072B044D5B7DE5A3DA5EA0702BF /* GRDatabaseBaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 623E33272E87D791275E1BA38C8D8C70 /* GRDatabaseBaseQueue.m */; };
+		779408CB10F866A67A7B6DB6B399CED9 /* GRJSONHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F3F648499CD6A21E203767E6D1CA223 /* GRJSONHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A375649D8747D5F48341BFC1AC1B243 /* NSString+GreedJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = D1526A5811A87E28A03C55868EE395C6 /* NSString+GreedJSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E1EEEB32E31834257628B21B042D97C /* GRDatabaseBaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 068D06FC6999EAC34B03057C14BE50E9 /* GRDatabaseBaseQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		922A1C22ADADB0038C8687B5C9F96A13 /* GreedDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2860F96DD331D5EDA1E0C753A277713C /* GreedDB-dummy.m */; };
+		9248D3576CD768624EC52AD6FE5F3AC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		953DFCBC41B369970839F31FD6D0133E /* GRDatabaseMultFilterQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = FA4586267C8391AD8D61CA9C4972F36C /* GRDatabaseMultFilterQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9897D65CF76DE3B88CB5328A16B533F5 /* GRDatabaseMultFilterQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0995428FAD4D3A306DBE035518E7B444 /* GRDatabaseMultFilterQueue.m */; };
+		9CC936263EE682378E9A2AB1B946029F /* NSObject+GreedDB.m in Sources */ = {isa = PBXBuildFile; fileRef = B20BC90CAD1CF307167B6C0FB1BA80F2 /* NSObject+GreedDB.m */; };
+		9D28BF5AAC7450983771B178A17D0391 /* NSData+GreedJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E39CB2FD683D4DD407A74E2C3DCA24 /* NSData+GreedJSON.m */; };
+		A350C5704A1F233DAD830E081E00F8C1 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C842EC3DA2443EE74B6850478AAC4B /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A77C102678EBABB5EB9D885CFB601592 /* NSArray+GreedJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 6198A418ABF7F7662D70EF74D07293C2 /* NSArray+GreedJSON.m */; };
+		B418C9BDCF8C6BAC2E3942F157BB6D4C /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = BE834A11D31D8FEEE12C0A35375EDA25 /* FMDatabaseAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C80F75B04BA52E70D85EDF638BEFC6E0 /* GRDatabaseDefaultQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B5175D671616CFCA3E25DF938C45A2 /* GRDatabaseDefaultQueue.m */; };
+		CA027706DD6805766F1F4EC548E72440 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 465C3A52F7B2BFF3BD3CD704D849FADB /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CB2998C216F305A02BFC0B1D5D6FC3F3 /* GreedJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D234A6CD51AF1EDE823BA2F33CF013 /* GreedJSON-dummy.m */; };
+		CBDA0DAE3BF0FBBA1341154508AA2C0D /* NSObject+GreedDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D8A37C1EAF315AD08EA1C129B715484 /* NSObject+GreedDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0C5FF5485EAA2CDA03E9796B407697A /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C228581FD639C28D54216D763096220 /* FMDatabaseQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0D5FFE53407F16C9CD3D0ECF43ACE93 /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 34329621A86BBA17284BED6D1D8B0702 /* FMDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9E7BDD535A627D233A8F8337C8FAE0E /* NSString+GreedJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA7EE3FE2DA0FAB082C9B396BDB5A6F /* NSString+GreedJSON.m */; };
+		DEFA3504695E9DFDE1177DAB22884470 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 72981FD55F48D5D9EA2A751B2DEDCA10 /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EE9BB38C5A5324731BFAC98743F79EBB /* NSObject+GreedJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1749FE1878D61711E3E02AE4C459A9 /* NSObject+GreedJSON.m */; };
+		F29F06EF1D4ABC298CEA7193E6303B51 /* NSDictionary+GreedJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 5478109572E62834CBB77AC8F61412B1 /* NSDictionary+GreedJSON.m */; };
+		F32AA48BA0542D41142C599AEF67E8A0 /* GRDatabaseDefaultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1CB1C84C9933E79C0C8880B1C8E027 /* GRDatabaseDefaultModel.m */; };
+		F40CD45E605B230B0C7A4ED7789BFD4A /* GRDatabaseDefaultQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B042D1988430DA4FB3FDE32DEBF5053 /* GRDatabaseDefaultQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F977B243321331B58666E9284634101A /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = C203DC8D72189509829FC9F2BC4A3CC9 /* FMResultSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AD9FB1C6E5F40B96649B8A2CFD40CDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5184D6814584FFFCE5D122DDEA5BAEE3;
+			remoteInfo = GreedJSON;
+		};
+		54DCD9660F1AB64DEA519248534F2A86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F12FB4A63E20F601CFB2E64A65B57C1;
+			remoteInfo = FMDB;
+		};
+		88B3C0AFB334BB1D56A23D1CE83FF8FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8392051E36620B993AD0C0C099E5622C;
+			remoteInfo = GreedDB;
+		};
+		BCC44CE4F973E563DF1B834CCFC7F5F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F12FB4A63E20F601CFB2E64A65B57C1;
+			remoteInfo = FMDB;
+		};
+		F2FA22BE1A373E48A1230F18673E983A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5184D6814584FFFCE5D122DDEA5BAEE3;
+			remoteInfo = GreedJSON;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		068D06FC6999EAC34B03057C14BE50E9 /* GRDatabaseBaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GRDatabaseBaseQueue.h; path = GreedDB/GRDatabaseBaseQueue.h; sourceTree = "<group>"; };
+		0995428FAD4D3A306DBE035518E7B444 /* GRDatabaseMultFilterQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GRDatabaseMultFilterQueue.m; path = GreedDB/GRDatabaseMultFilterQueue.m; sourceTree = "<group>"; };
+		0C228581FD639C28D54216D763096220 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = src/fmdb/FMDatabaseQueue.h; sourceTree = "<group>"; };
+		10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		11256F4C963D39DE4739C77090C0CA13 /* FMDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = src/fmdb/FMDB.h; sourceTree = "<group>"; };
+		1A1749FE1878D61711E3E02AE4C459A9 /* NSObject+GreedJSON.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+GreedJSON.m"; path = "GreedJSON/NSObject+GreedJSON.m"; sourceTree = "<group>"; };
+		26E39CB2FD683D4DD407A74E2C3DCA24 /* NSData+GreedJSON.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+GreedJSON.m"; path = "GreedJSON/NSData+GreedJSON.m"; sourceTree = "<group>"; };
+		272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		2860F96DD331D5EDA1E0C753A277713C /* GreedDB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GreedDB-dummy.m"; sourceTree = "<group>"; };
+		30B5175D671616CFCA3E25DF938C45A2 /* GRDatabaseDefaultQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GRDatabaseDefaultQueue.m; path = GreedDB/GRDatabaseDefaultQueue.m; sourceTree = "<group>"; };
+		3200534806EF898370F9BBFBDF715894 /* GreedDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GreedDB.h; path = GreedDB/GreedDB.h; sourceTree = "<group>"; };
+		34329621A86BBA17284BED6D1D8B0702 /* FMDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = src/fmdb/FMDatabase.h; sourceTree = "<group>"; };
+		3754FCF5AE5D2FE9562F4EAD6576263F /* GreedDB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GreedDB-prefix.pch"; sourceTree = "<group>"; };
+		37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		38C842EC3DA2443EE74B6850478AAC4B /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = src/fmdb/FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		3D57B22A52B721856347CBE753263BD2 /* FMDB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FMDB-dummy.m"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		465C3A52F7B2BFF3BD3CD704D849FADB /* FMDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = src/fmdb/FMDatabase.m; sourceTree = "<group>"; };
+		4A80781B874ED6F1A08C96EF8C51C540 /* NSDictionary+GreedJSON.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+GreedJSON.h"; path = "GreedJSON/NSDictionary+GreedJSON.h"; sourceTree = "<group>"; };
+		4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		4F1CB1C84C9933E79C0C8880B1C8E027 /* GRDatabaseDefaultModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GRDatabaseDefaultModel.m; path = GreedDB/GRDatabaseDefaultModel.m; sourceTree = "<group>"; };
+		4F3F648499CD6A21E203767E6D1CA223 /* GRJSONHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GRJSONHelper.h; path = GreedJSON/GRJSONHelper.h; sourceTree = "<group>"; };
+		5478109572E62834CBB77AC8F61412B1 /* NSDictionary+GreedJSON.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+GreedJSON.m"; path = "GreedJSON/NSDictionary+GreedJSON.m"; sourceTree = "<group>"; };
+		571A7A4323F4ED0F398CB7C934F9C04F /* GreedJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GreedJSON.xcconfig; sourceTree = "<group>"; };
+		574206CBF7AFE8AEA6AC28034DE900CB /* NSData+GreedJSON.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+GreedJSON.h"; path = "GreedJSON/NSData+GreedJSON.h"; sourceTree = "<group>"; };
+		58364DF2F6B08DADC9A6B4BA14CBBF45 /* NSObject+GreedJSON.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+GreedJSON.h"; path = "GreedJSON/NSObject+GreedJSON.h"; sourceTree = "<group>"; };
+		6198A418ABF7F7662D70EF74D07293C2 /* NSArray+GreedJSON.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+GreedJSON.m"; path = "GreedJSON/NSArray+GreedJSON.m"; sourceTree = "<group>"; };
+		623E33272E87D791275E1BA38C8D8C70 /* GRDatabaseBaseQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GRDatabaseBaseQueue.m; path = GreedDB/GRDatabaseBaseQueue.m; sourceTree = "<group>"; };
+		65554CBAB8163FB53047613603AE6373 /* GreedJSON.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GreedJSON.h; path = GreedJSON/GreedJSON.h; sourceTree = "<group>"; };
+		6911BECA35E7518D864239B7E898EEF3 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
+		6A70A2C2CD1E755E4D39203E32CE6E4A /* FMDatabasePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = src/fmdb/FMDatabasePool.h; sourceTree = "<group>"; };
+		6B042D1988430DA4FB3FDE32DEBF5053 /* GRDatabaseDefaultQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GRDatabaseDefaultQueue.h; path = GreedDB/GRDatabaseDefaultQueue.h; sourceTree = "<group>"; };
+		72981FD55F48D5D9EA2A751B2DEDCA10 /* FMResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
+		751A3FB0880994C77F6A6C183D7AAEF4 /* GRJSONHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GRJSONHelper.m; path = GreedJSON/GRJSONHelper.m; sourceTree = "<group>"; };
+		799BFAF24266ED4799D1809BE400ADD2 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = src/fmdb/FMDatabaseQueue.m; sourceTree = "<group>"; };
+		7D028CDFDF4DA2B6B50CB7D15C3FDD56 /* GreedDB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GreedDB.xcconfig; sourceTree = "<group>"; };
+		7EA7EE3FE2DA0FAB082C9B396BDB5A6F /* NSString+GreedJSON.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+GreedJSON.m"; path = "GreedJSON/NSString+GreedJSON.m"; sourceTree = "<group>"; };
+		7F19E426A95A2BD264457B1DA55BB3EE /* GreedJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GreedJSON-prefix.pch"; sourceTree = "<group>"; };
+		8310ACACAEA1263E36DE2BC0C2FF586C /* FMDB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-prefix.pch"; sourceTree = "<group>"; };
+		8D8A37C1EAF315AD08EA1C129B715484 /* NSObject+GreedDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+GreedDB.h"; path = "GreedDB/NSObject+GreedDB.h"; sourceTree = "<group>"; };
+		98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		99B1B4B3C7ED1EAED255BF3D64241BEC /* libGreedDB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGreedDB.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1A36D34413696BE466E2CA0AFF194DA /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		A469A1D490490AABA68DF705F6673D62 /* libFMDB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFMDB.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A681A413C78873DCB32E4CEFFB12E81F /* GRDatabaseDefaultModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GRDatabaseDefaultModel.h; path = GreedDB/GRDatabaseDefaultModel.h; sourceTree = "<group>"; };
+		B0D234A6CD51AF1EDE823BA2F33CF013 /* GreedJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GreedJSON-dummy.m"; sourceTree = "<group>"; };
+		B20BC90CAD1CF307167B6C0FB1BA80F2 /* NSObject+GreedDB.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+GreedDB.m"; path = "GreedDB/NSObject+GreedDB.m"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BDBD2AF94D20691BCFDE610F5FD35726 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE834A11D31D8FEEE12C0A35375EDA25 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = src/fmdb/FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		C203DC8D72189509829FC9F2BC4A3CC9 /* FMResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = src/fmdb/FMResultSet.h; sourceTree = "<group>"; };
+		C3751613E08B14EFA282E5DFA18A2ACD /* FMDB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMDB.xcconfig; sourceTree = "<group>"; };
+		C4CFF570F95828A53E6EA5A93FA45226 /* libGreedJSON.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGreedJSON.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCB4C8E44C911A5A530D1C9F0D150F0F /* NSArray+GreedJSON.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+GreedJSON.h"; path = "GreedJSON/NSArray+GreedJSON.h"; sourceTree = "<group>"; };
+		D1526A5811A87E28A03C55868EE395C6 /* NSString+GreedJSON.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+GreedJSON.h"; path = "GreedJSON/NSString+GreedJSON.h"; sourceTree = "<group>"; };
+		E68F4E9E2BA4D6DE9AE6BCBEB0471B17 /* FMDatabasePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = src/fmdb/FMDatabasePool.m; sourceTree = "<group>"; };
+		FA4586267C8391AD8D61CA9C4972F36C /* GRDatabaseMultFilterQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GRDatabaseMultFilterQueue.h; path = GreedDB/GRDatabaseMultFilterQueue.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		113CBCBAA686BF777ECC6E5BEDD50AA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9248D3576CD768624EC52AD6FE5F3AC4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4530EA7D524279CD7ED62A2BBCDEF62F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B8BAB01A02ECE00781B3D168C53CD90 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84AF63084FFE4472EFC6131BD113B13D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				587B76A3E381AF7C3EFFDF6754D39288 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF71067F89BEFA00581E292E905D7261 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D46B5BDCFB900021D6C216942DC82BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3D1D13E0C6553800746CB8FD61CF946 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		054112BE49FC53A92C2137700D1D43E1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3751613E08B14EFA282E5DFA18A2ACD /* FMDB.xcconfig */,
+				3D57B22A52B721856347CBE753263BD2 /* FMDB-dummy.m */,
+				8310ACACAEA1263E36DE2BC0C2FF586C /* FMDB-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FMDB";
+			sourceTree = "<group>";
+		};
+		148F0E03321A0AC0A1E4B2A92988BA33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A469A1D490490AABA68DF705F6673D62 /* libFMDB.a */,
+				99B1B4B3C7ED1EAED255BF3D64241BEC /* libGreedDB.a */,
+				C4CFF570F95828A53E6EA5A93FA45226 /* libGreedJSON.a */,
+				BDBD2AF94D20691BCFDE610F5FD35726 /* libPods.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2210B06BF541BC03A35C93B825C0E410 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E1D8B59ADCD530C8A3992208FB1D42E /* FMDB */,
+				57D66E45E0E1B299D45D699D8C912D5A /* GreedDB */,
+				25ECED0BBD5B0CD499767458F5090F08 /* GreedJSON */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		25ECED0BBD5B0CD499767458F5090F08 /* GreedJSON */ = {
+			isa = PBXGroup;
+			children = (
+				65554CBAB8163FB53047613603AE6373 /* GreedJSON.h */,
+				4F3F648499CD6A21E203767E6D1CA223 /* GRJSONHelper.h */,
+				751A3FB0880994C77F6A6C183D7AAEF4 /* GRJSONHelper.m */,
+				CCB4C8E44C911A5A530D1C9F0D150F0F /* NSArray+GreedJSON.h */,
+				6198A418ABF7F7662D70EF74D07293C2 /* NSArray+GreedJSON.m */,
+				574206CBF7AFE8AEA6AC28034DE900CB /* NSData+GreedJSON.h */,
+				26E39CB2FD683D4DD407A74E2C3DCA24 /* NSData+GreedJSON.m */,
+				4A80781B874ED6F1A08C96EF8C51C540 /* NSDictionary+GreedJSON.h */,
+				5478109572E62834CBB77AC8F61412B1 /* NSDictionary+GreedJSON.m */,
+				58364DF2F6B08DADC9A6B4BA14CBBF45 /* NSObject+GreedJSON.h */,
+				1A1749FE1878D61711E3E02AE4C459A9 /* NSObject+GreedJSON.m */,
+				D1526A5811A87E28A03C55868EE395C6 /* NSString+GreedJSON.h */,
+				7EA7EE3FE2DA0FAB082C9B396BDB5A6F /* NSString+GreedJSON.m */,
+				89496E6B8162BC480AC9E2B97E42645F /* Support Files */,
+			);
+			path = GreedJSON;
+			sourceTree = "<group>";
+		};
+		57D66E45E0E1B299D45D699D8C912D5A /* GreedDB */ = {
+			isa = PBXGroup;
+			children = (
+				068D06FC6999EAC34B03057C14BE50E9 /* GRDatabaseBaseQueue.h */,
+				623E33272E87D791275E1BA38C8D8C70 /* GRDatabaseBaseQueue.m */,
+				A681A413C78873DCB32E4CEFFB12E81F /* GRDatabaseDefaultModel.h */,
+				4F1CB1C84C9933E79C0C8880B1C8E027 /* GRDatabaseDefaultModel.m */,
+				6B042D1988430DA4FB3FDE32DEBF5053 /* GRDatabaseDefaultQueue.h */,
+				30B5175D671616CFCA3E25DF938C45A2 /* GRDatabaseDefaultQueue.m */,
+				FA4586267C8391AD8D61CA9C4972F36C /* GRDatabaseMultFilterQueue.h */,
+				0995428FAD4D3A306DBE035518E7B444 /* GRDatabaseMultFilterQueue.m */,
+				3200534806EF898370F9BBFBDF715894 /* GreedDB.h */,
+				8D8A37C1EAF315AD08EA1C129B715484 /* NSObject+GreedDB.h */,
+				B20BC90CAD1CF307167B6C0FB1BA80F2 /* NSObject+GreedDB.m */,
+				9D17FFCF4D11DE17809DE30D98A9CB2B /* Support Files */,
+			);
+			path = GreedDB;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				2210B06BF541BC03A35C93B825C0E410 /* Pods */,
+				148F0E03321A0AC0A1E4B2A92988BA33 /* Products */,
+				037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7E1D8B59ADCD530C8A3992208FB1D42E /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				A254829898001CD37814F02FEA147CD0 /* common */,
+				054112BE49FC53A92C2137700D1D43E1 /* Support Files */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		89496E6B8162BC480AC9E2B97E42645F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				571A7A4323F4ED0F398CB7C934F9C04F /* GreedJSON.xcconfig */,
+				B0D234A6CD51AF1EDE823BA2F33CF013 /* GreedJSON-dummy.m */,
+				7F19E426A95A2BD264457B1DA55BB3EE /* GreedJSON-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GreedJSON";
+			sourceTree = "<group>";
+		};
+		9D17FFCF4D11DE17809DE30D98A9CB2B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D028CDFDF4DA2B6B50CB7D15C3FDD56 /* GreedDB.xcconfig */,
+				2860F96DD331D5EDA1E0C753A277713C /* GreedDB-dummy.m */,
+				3754FCF5AE5D2FE9562F4EAD6576263F /* GreedDB-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GreedDB";
+			sourceTree = "<group>";
+		};
+		A254829898001CD37814F02FEA147CD0 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				34329621A86BBA17284BED6D1D8B0702 /* FMDatabase.h */,
+				465C3A52F7B2BFF3BD3CD704D849FADB /* FMDatabase.m */,
+				BE834A11D31D8FEEE12C0A35375EDA25 /* FMDatabaseAdditions.h */,
+				38C842EC3DA2443EE74B6850478AAC4B /* FMDatabaseAdditions.m */,
+				6A70A2C2CD1E755E4D39203E32CE6E4A /* FMDatabasePool.h */,
+				E68F4E9E2BA4D6DE9AE6BCBEB0471B17 /* FMDatabasePool.m */,
+				0C228581FD639C28D54216D763096220 /* FMDatabaseQueue.h */,
+				799BFAF24266ED4799D1809BE400ADD2 /* FMDatabaseQueue.m */,
+				11256F4C963D39DE4739C77090C0CA13 /* FMDB.h */,
+				C203DC8D72189509829FC9F2BC4A3CC9 /* FMResultSet.h */,
+				72981FD55F48D5D9EA2A751B2DEDCA10 /* FMResultSet.m */,
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
+		B3D1D13E0C6553800746CB8FD61CF946 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */,
+				10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */,
+				272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */,
+				6911BECA35E7518D864239B7E898EEF3 /* Pods-frameworks.sh */,
+				A1A36D34413696BE466E2CA0AFF194DA /* Pods-resources.sh */,
+				4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */,
+				98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2568485F44BC81D13083E87C5BF3724E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33D62CE58BB835BE14A700EFC7F5E028 /* GreedJSON.h in Headers */,
+				779408CB10F866A67A7B6DB6B399CED9 /* GRJSONHelper.h in Headers */,
+				29362C939FF1842808F0D6EC1989235B /* NSArray+GreedJSON.h in Headers */,
+				0644018FC6116AC073744406845A0681 /* NSData+GreedJSON.h in Headers */,
+				1C142C575692EEEF824169C340B9C794 /* NSDictionary+GreedJSON.h in Headers */,
+				02760F1041146F6E5D7A14F55FC9819D /* NSObject+GreedJSON.h in Headers */,
+				7A375649D8747D5F48341BFC1AC1B243 /* NSString+GreedJSON.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B2D82357BE4C2A10AB2CD4724B8E654 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0D5FFE53407F16C9CD3D0ECF43ACE93 /* FMDatabase.h in Headers */,
+				B418C9BDCF8C6BAC2E3942F157BB6D4C /* FMDatabaseAdditions.h in Headers */,
+				0F8A8E0D6FAEBF758E0B4D620335F094 /* FMDatabasePool.h in Headers */,
+				D0C5FF5485EAA2CDA03E9796B407697A /* FMDatabaseQueue.h in Headers */,
+				313531CEDA0294311D87B4F4C3F073F4 /* FMDB.h in Headers */,
+				F977B243321331B58666E9284634101A /* FMResultSet.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B732994760FCCDE3651AFBDE25C3C3EA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E1EEEB32E31834257628B21B042D97C /* GRDatabaseBaseQueue.h in Headers */,
+				3C52847F5FF0EEFF107B6921D4E46AA6 /* GRDatabaseDefaultModel.h in Headers */,
+				F40CD45E605B230B0C7A4ED7789BFD4A /* GRDatabaseDefaultQueue.h in Headers */,
+				953DFCBC41B369970839F31FD6D0133E /* GRDatabaseMultFilterQueue.h in Headers */,
+				61655F4BFFC94E1947436ADB525D7B33 /* GreedDB.h in Headers */,
+				CBDA0DAE3BF0FBBA1341154508AA2C0D /* NSObject+GreedDB.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5184D6814584FFFCE5D122DDEA5BAEE3 /* GreedJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06A7CF7820B4033B624A4846445CB16E /* Build configuration list for PBXNativeTarget "GreedJSON" */;
+			buildPhases = (
+				5A512EBCEF4B203004B48D55E3761DFF /* Sources */,
+				4530EA7D524279CD7ED62A2BBCDEF62F /* Frameworks */,
+				2568485F44BC81D13083E87C5BF3724E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GreedJSON;
+			productName = GreedJSON;
+			productReference = C4CFF570F95828A53E6EA5A93FA45226 /* libGreedJSON.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8392051E36620B993AD0C0C099E5622C /* GreedDB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E571BDD47AABB1784A2B89829E0E150 /* Build configuration list for PBXNativeTarget "GreedDB" */;
+			buildPhases = (
+				F3412B6E6AA49A99FF73F67F3233C354 /* Sources */,
+				EF71067F89BEFA00581E292E905D7261 /* Frameworks */,
+				B732994760FCCDE3651AFBDE25C3C3EA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				815CC7D413447048231E8E376E9BBD1C /* PBXTargetDependency */,
+				CB96CAEEB676669BDB6039BC34353073 /* PBXTargetDependency */,
+			);
+			name = GreedDB;
+			productName = GreedDB;
+			productReference = 99B1B4B3C7ED1EAED255BF3D64241BEC /* libGreedDB.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9F12FB4A63E20F601CFB2E64A65B57C1 /* FMDB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AC899FD215914230EB9D8B57AD910D0 /* Build configuration list for PBXNativeTarget "FMDB" */;
+			buildPhases = (
+				050B66E154969A68944942A22BD9B314 /* Sources */,
+				84AF63084FFE4472EFC6131BD113B13D /* Frameworks */,
+				8B2D82357BE4C2A10AB2CD4724B8E654 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FMDB;
+			productName = FMDB;
+			productReference = A469A1D490490AABA68DF705F6673D62 /* libFMDB.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F2A653D8545AA3344B79A9DC14FD59A0 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C2A92D35491E514C94E58FA466029D0 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				C9C7C79FCB3833CA93F449344BE1EA7E /* Sources */,
+				113CBCBAA686BF777ECC6E5BEDD50AA0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F54324859355E74423EE93BBA0711372 /* PBXTargetDependency */,
+				DE437B737CFB4CCD626FE04C802EA07E /* PBXTargetDependency */,
+				8871ECA940E891DCD5556934290C6ACA /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = BDBD2AF94D20691BCFDE610F5FD35726 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 148F0E03321A0AC0A1E4B2A92988BA33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F12FB4A63E20F601CFB2E64A65B57C1 /* FMDB */,
+				8392051E36620B993AD0C0C099E5622C /* GreedDB */,
+				5184D6814584FFFCE5D122DDEA5BAEE3 /* GreedJSON */,
+				F2A653D8545AA3344B79A9DC14FD59A0 /* Pods */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		050B66E154969A68944942A22BD9B314 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA027706DD6805766F1F4EC548E72440 /* FMDatabase.m in Sources */,
+				A350C5704A1F233DAD830E081E00F8C1 /* FMDatabaseAdditions.m in Sources */,
+				0EF8E9AA652DBE2745A7D5C8CD2E3BDE /* FMDatabasePool.m in Sources */,
+				282081E035E7A843068E8BCC2E07C217 /* FMDatabaseQueue.m in Sources */,
+				3D0F69C4CA35EB6A1F686BA88B19B4F6 /* FMDB-dummy.m in Sources */,
+				DEFA3504695E9DFDE1177DAB22884470 /* FMResultSet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A512EBCEF4B203004B48D55E3761DFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB2998C216F305A02BFC0B1D5D6FC3F3 /* GreedJSON-dummy.m in Sources */,
+				6E85DE9FBE13A2C8E36CD89E8997575F /* GRJSONHelper.m in Sources */,
+				A77C102678EBABB5EB9D885CFB601592 /* NSArray+GreedJSON.m in Sources */,
+				9D28BF5AAC7450983771B178A17D0391 /* NSData+GreedJSON.m in Sources */,
+				F29F06EF1D4ABC298CEA7193E6303B51 /* NSDictionary+GreedJSON.m in Sources */,
+				EE9BB38C5A5324731BFAC98743F79EBB /* NSObject+GreedJSON.m in Sources */,
+				D9E7BDD535A627D233A8F8337C8FAE0E /* NSString+GreedJSON.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9C7C79FCB3833CA93F449344BE1EA7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EC3470FF8973485CBCE1A5B27C46F74 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3412B6E6AA49A99FF73F67F3233C354 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				775A4072B044D5B7DE5A3DA5EA0702BF /* GRDatabaseBaseQueue.m in Sources */,
+				F32AA48BA0542D41142C599AEF67E8A0 /* GRDatabaseDefaultModel.m in Sources */,
+				C80F75B04BA52E70D85EDF638BEFC6E0 /* GRDatabaseDefaultQueue.m in Sources */,
+				9897D65CF76DE3B88CB5328A16B533F5 /* GRDatabaseMultFilterQueue.m in Sources */,
+				922A1C22ADADB0038C8687B5C9F96A13 /* GreedDB-dummy.m in Sources */,
+				9CC936263EE682378E9A2AB1B946029F /* NSObject+GreedDB.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		815CC7D413447048231E8E376E9BBD1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FMDB;
+			target = 9F12FB4A63E20F601CFB2E64A65B57C1 /* FMDB */;
+			targetProxy = 54DCD9660F1AB64DEA519248534F2A86 /* PBXContainerItemProxy */;
+		};
+		8871ECA940E891DCD5556934290C6ACA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GreedJSON;
+			target = 5184D6814584FFFCE5D122DDEA5BAEE3 /* GreedJSON */;
+			targetProxy = 1AD9FB1C6E5F40B96649B8A2CFD40CDA /* PBXContainerItemProxy */;
+		};
+		CB96CAEEB676669BDB6039BC34353073 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GreedJSON;
+			target = 5184D6814584FFFCE5D122DDEA5BAEE3 /* GreedJSON */;
+			targetProxy = F2FA22BE1A373E48A1230F18673E983A /* PBXContainerItemProxy */;
+		};
+		DE437B737CFB4CCD626FE04C802EA07E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GreedDB;
+			target = 8392051E36620B993AD0C0C099E5622C /* GreedDB */;
+			targetProxy = 88B3C0AFB334BB1D56A23D1CE83FF8FE /* PBXContainerItemProxy */;
+		};
+		F54324859355E74423EE93BBA0711372 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FMDB;
+			target = 9F12FB4A63E20F601CFB2E64A65B57C1 /* FMDB */;
+			targetProxy = BCC44CE4F973E563DF1B834CCFC7F5F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1FF5037018D42E5F732E7296ABC671EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3751613E08B14EFA282E5DFA18A2ACD /* FMDB.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2EFC2181A32FCBD0F5716B3FDD51175D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D028CDFDF4DA2B6B50CB7D15C3FDD56 /* GreedDB.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GreedDB/GreedDB-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3D5717AD4FA146A158A44AAFE57272CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 571A7A4323F4ED0F398CB7C934F9C04F /* GreedJSON.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GreedJSON/GreedJSON-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		41E613EB81D9A4BEB614177ED5C3693F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D028CDFDF4DA2B6B50CB7D15C3FDD56 /* GreedDB.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GreedDB/GreedDB-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6569F07DC21AD8B72752685013E3D9D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		777941A8A95C0592ABBBA21069203F00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A14E2444F162A20E3776820E0ADFFB52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4363B8308871016D021A0E5B943C7DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3751613E08B14EFA282E5DFA18A2ACD /* FMDB.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D031F029CD7BEA0B14287EFBB03AA185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FF2AEC0AEC2163E237871E0CC9BB18AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 571A7A4323F4ED0F398CB7C934F9C04F /* GreedJSON.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GreedJSON/GreedJSON-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06A7CF7820B4033B624A4846445CB16E /* Build configuration list for PBXNativeTarget "GreedJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF2AEC0AEC2163E237871E0CC9BB18AE /* Debug */,
+				3D5717AD4FA146A158A44AAFE57272CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6569F07DC21AD8B72752685013E3D9D8 /* Debug */,
+				A14E2444F162A20E3776820E0ADFFB52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AC899FD215914230EB9D8B57AD910D0 /* Build configuration list for PBXNativeTarget "FMDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FF5037018D42E5F732E7296ABC671EA /* Debug */,
+				A4363B8308871016D021A0E5B943C7DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C2A92D35491E514C94E58FA466029D0 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				777941A8A95C0592ABBBA21069203F00 /* Debug */,
+				D031F029CD7BEA0B14287EFBB03AA185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E571BDD47AABB1784A2B89829E0E150 /* Build configuration list for PBXNativeTarget "GreedDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41E613EB81D9A4BEB614177ED5C3693F /* Debug */,
+				2EFC2181A32FCBD0F5716B3FDD51175D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

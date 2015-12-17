@@ -1,0 +1,20 @@
+PODS:
+  - FMDB (2.5):
+    - FMDB/standard (= 2.5)
+  - FMDB/common (2.5)
+  - FMDB/standard (2.5):
+    - FMDB/common
+  - GreedDB (0.0.6):
+    - FMDB
+    - GreedJSON
+  - GreedJSON (0.0.9)
+
+DEPENDENCIES:
+  - GreedDB (~> 0.0.6)
+
+SPEC CHECKSUMS:
+  FMDB: 96e8f1bcc1329e269330f99770ad4285d9003e52
+  GreedDB: 7f3040be2551d620cc869177a2ba616b57892350
+  GreedJSON: 0376b17612ad3a14c31a3476ef85294183f2b84a
+
+COCOAPODS: 0.39.0
